@@ -379,7 +379,7 @@
             </div>
             <button
               (click)="submitWithdrawal()"
-              [disabled]="withdrawalForm.amount < 12 || !withdrawalForm.solanaAddress"
+              [disabled]="withdrawalForm.amount < 5 || !withdrawalForm.solanaAddress"
               class="w-full bg-gray-900 hover:bg-gray-700 text-white font-semibold py-3 rounded-lg transition-colors text-sm disabled:opacity-40 disabled:cursor-not-allowed"
             >
               Submit Withdrawal
